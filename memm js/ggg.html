@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JAVASCRIPT</h1>
+    <p id="demo"></p>
+    <button id="btn">Continue</button>
+    <script>
+        document.write('Hello');
+        // document.getElementById('demo').innerHTML='Hurray!'
+        console.log('Hello from console')
+        // alert('Warning!')
+        // prompt('hello')
+        // confirm('Allow')
+        // if(confirm('Continue')){
+        //     document.getElementById('demo').innerHTML='Still Continue'
+        // }
+        // else{
+        //     document.getElementById('demo').innerHTML='Discontinue!'
+
+        // }
+        // console.log(confirm('Continue'));
+
+        let data=prompt('Enter your name to go inside website');
+        let show;
+        if(data==null || data==""){
+         document.getElementById('demo').innerHTML='Please enter your name to continue'
+            document.getElementById('btn').style.display='none'
+        }
+        else{
+            document.getElementById('demo').innerHTML='kppp'+data;
+            document.getElementById('btn').style.display='block'
+
+        }
+
+    </script>
+</body>
+</html>
+
+<!-- document.write()
+console.log()
+document.getelementbyid.innerhtml
+alert
+prompt
+confirm -->
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+div.navbar{
+    border: 1px black solid;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.navbar span{
+    float: right;
+}
+#kk{
+    border: 2px black solid;
+    display: inline;
+}
+.navbar li{
+   padding: 5px;
+   
+}

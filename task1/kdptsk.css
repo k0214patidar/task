@@ -1,0 +1,13 @@
+
+div.text{
+    width: 200px;
+    height: 200px;
+    border: solid red 15px;
+    overflow: scroll;
+}
+.text::-webkit-scrollbar{
+    display: none;
+}
+.text h1{
+    color:  hwb(244 7% 11% / 0.596) ;
+}

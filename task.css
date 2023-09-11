@@ -1,0 +1,36 @@
+body{
+    background-image: url(pic2.jpg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+navbar{
+    background-color: hsla(120, 72%, 28%, 0.714);
+    border-radius: 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 30px;
+}
+.navbar div{
+   padding: 30px;
+   background-color: black;
+   width:fit-content;
+   
+}
+.navbar img{
+    padding-bottom: 40px;
+}
+.content{
+    height: 600px;
+}
+.frist{
+    text-align: center;
+}
